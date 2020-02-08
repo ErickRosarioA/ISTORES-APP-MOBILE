@@ -1,0 +1,7 @@
+{
+  "name": "SearchAll",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
