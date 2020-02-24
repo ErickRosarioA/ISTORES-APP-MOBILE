@@ -1,7 +1,7 @@
 {
-  "name": "SearchAll",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
+    "name": "IStores",
+    "integrations": {
+        "cordova": {}
+    },
+    "type": "angular"
 }
