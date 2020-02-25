@@ -13,6 +13,9 @@ import{File}from'@ionic-native/file/ngx';
 import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
 import { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer/ngx';
 import { ModalViewPageModule } from './page/modal-view/modal-view.module';
+import {Network} from '@ionic-native/network/ngx';
+import {Downloader, DownloadRequest,NotificationVisibility,DestinationDirectory,DownloadHttpHeader} from '@ionic-native/downloader/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -27,10 +30,12 @@ import { ModalViewPageModule } from './page/modal-view/modal-view.module';
     StatusBar,
     SplashScreen,
     ServiceImageService,
+    Network,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     File,
     AndroidPermissions,
-    FileTransfer
+    FileTransfer,
+    Downloader
   ],
   bootstrap: [AppComponent]
 })
