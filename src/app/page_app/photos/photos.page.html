@@ -1,0 +1,25 @@
+<ion-header>
+
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title style="font-weight: bold;">{{title}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-refresher slot="fixed" (ionRefresh)="getImages(null,$event)">
+        <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="Refresh" refreshingSpinner="circles">
+        </ion-refresher-content>
+    </ion-refresher>
+
+    <div class="content_grid">
+        <ion-grid>
+            <ion-row class="base_grid">
+                <ion-col *ngFor="let image of images">
+                    <ion-img class="image-container" [src]="image.previewURL" tappable (click)="openViewImg(image)"></ion-img>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+</ion-content>

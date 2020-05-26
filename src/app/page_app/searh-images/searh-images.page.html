@@ -1,0 +1,53 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title style="font-weight: bold;">Search Images</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-refresher slot="fixed" (ionRefresh)="getImages(typeImage,$event)">
+        <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="Refresh" refreshingSpinner="circles">
+        </ion-refresher-content>
+    </ion-refresher>
+    <ion-list>
+        <ion-item>
+            <ion-label>Images Type:</ion-label>
+            <ion-select (ionChange)="onChagesImg($event)" value="backgrounds" mode="ios" okText="Acept" cancelText="Cancel">
+                <ion-select-option value="backgrounds">backgrounds</ion-select-option>
+                <ion-select-option value="fashion">fashion</ion-select-option>
+                <ion-select-option value="nature">nature</ion-select-option>
+                <ion-select-option value="science">science</ion-select-option>
+                <ion-select-option value="education">education</ion-select-option>
+                <ion-select-option value="feelings">feelings</ion-select-option>
+                <ion-select-option value="health">health</ion-select-option>
+                <ion-select-option value="people">people</ion-select-option>
+                <ion-select-option value="religion">religion</ion-select-option>
+                <ion-select-option value="places">places</ion-select-option>
+                <ion-select-option value="business">business</ion-select-option>
+                <ion-select-option value="industry">industry</ion-select-option>
+                <ion-select-option value="computer">computer</ion-select-option>
+                <ion-select-option value="food">food</ion-select-option>
+                <ion-select-option value="sports">sports</ion-select-option>
+                <ion-select-option value="transportation">transportation</ion-select-option>
+                <ion-select-option value="travel">travel</ion-select-option>
+                <ion-select-option value="buildings">buildings</ion-select-option>
+                <ion-select-option value="music">music</ion-select-option>
+            </ion-select>
+        </ion-item>
+
+    </ion-list>
+
+    <div class="content_grid">
+
+        <ion-grid>
+            <ion-row class="base_grid">
+                <ion-col *ngFor="let image of images">
+                    <ion-img class="image-container" [src]="image.previewURL" tappable (click)="openViewImg(image)"></ion-img>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+</ion-content>
