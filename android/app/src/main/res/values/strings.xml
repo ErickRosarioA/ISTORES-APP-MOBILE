@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">IStores</string>
+    <string name="title_activity_main">IStores</string>
+    <string name="package_name">com.istores.app</string>
+    <string name="custom_url_scheme">com.istores.app</string>
+</resources>

@@ -1,0 +1,20 @@
+{
+  "appId": "com.istores.app",
+  "appName": "IStores",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "false",
+      "android-minSdkVersion": "19",
+      "BackupWebStorage": "none",
+      "SplashMaintainAspectRatio": "false",
+      "FadeSplashScreenDuration": "500",
+      "SplashShowOnlyFirstTime": "false",
+      "ShowSplashScreenSpinner": "false",
+      "SplashScreen": "screen",
+      "SplashScreenDelay": "3000"
+    }
+  }
+}
