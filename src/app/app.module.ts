@@ -12,7 +12,7 @@ import{ServiceImageService} from '../app/services/service-image.service';
 import{File}from'@ionic-native/file/ngx';
 import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
 import { FileTransfer, FileUploadOptions, FileTransferObject } from '@ionic-native/file-transfer/ngx';
-import { ModalViewPageModule } from './page/modal-view/modal-view.module';
+import { ModalViewPageModule } from './page_app/modal-view/modal-view.module';
 import {Network} from '@ionic-native/network/ngx';
 import {Downloader, DownloadRequest,NotificationVisibility,DestinationDirectory,DownloadHttpHeader} from '@ionic-native/downloader/ngx';
 
