@@ -1,0 +1,25 @@
+.close-fake {
+    --background: transparent;
+    ion-icon {
+        font-size: 1.6rem;
+    }
+}
+
+ion-content {
+    --background: black;
+}
+
+.buttonDownload {
+    border: 2px solid white !important;
+    color: white;
+}
+
+ion-img {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    height: 450px !important;
+}
+
+.alertPush {
+    text-align: center;
+}

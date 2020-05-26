@@ -1,0 +1,33 @@
+.content_grid {
+    width: 100%;
+}
+
+.base_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-container {
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 130px !important;
+}
+
+@media (min-width: 0px) {
+    .images {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 420px) {
+    .images {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 720px) {
+    .images {
+        column-count: 4;
+    }
+}

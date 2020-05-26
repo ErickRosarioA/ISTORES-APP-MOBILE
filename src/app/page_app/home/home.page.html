@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-button (click)="presentAlert()">
+                <img src="../../../assets/imageApp/is_icon.png" width="24px" height="24px" />
+            </ion-button>
+        </ion-buttons>
+        <ion-title class="ion-text-center" style="font-weight: bold;">
+            IStores
+        </ion-title>
+        <ion-buttons slot="end">
+            <ion-button (click)="presentAlert()">
+                <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="ion-padding " style="padding-top: 0% !important; padding-bottom: 0% !important; ">
+        <app-home-menu *ngIf="state"></app-home-menu>
+        <div style="text-align: center; margin-top: 40%;">
+            <label color="black" *ngIf="!state" style="font-weight: bold;">NOT CONNECTION INTERNET</label>
+        </div>
+    </div>
+</ion-content>

@@ -1,0 +1,28 @@
+<ion-content fullscreen>
+    <div class="close-fake" lines="none">
+        <ion-button (click)="closeModal()" fill="clear" color="light">
+            <ion-icon name="close" slot="start"></ion-icon>
+        </ion-button>
+    </div>
+    <ion-slides>
+        <ion-slide>
+            <div class="swiper-zoom-container">
+                <ion-img class="image-container" [src]="img.webformatURL" width='100%'></ion-img>
+            </div>
+        </ion-slide>
+    </ion-slides>
+
+    <ion-item class="close-fake" lines="none">
+        <div style="width: 100%; text-align: center; align-self: center; justify-content: center;">
+            <ion-button class="buttonDownload" (click)="download(img)" fill="clear">
+                HERE DOWNLOAD
+                <ion-icon name="download" slot="start"></ion-icon>
+                <ion-icon name="download" slot="end"></ion-icon>
+            </ion-button>
+        </div>
+        <!-- <ion-button (click)="afilter(img)" fill="clear" color="light">
+            <ion-icon name="filter" slot="start"></ion-icon>
+        </ion-button> -->
+
+    </ion-item>
+</ion-content>
