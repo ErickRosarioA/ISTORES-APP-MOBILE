@@ -29,16 +29,19 @@ Para compilar y ejecutar este proyecto, sigue estos pasos:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/IMAGESTORES-APP.git
+   git clone https://github.com/ErickRosarioA/IMAGESTORES-APP.git
 
- 2.Navega al directorio del proyecto:
-  cd IMAGESTORES-APP
+2. Navega al directorio del proyecto:
+   ```bash
+   cd IMAGESTORES-APP
   
- 3.Instala las dependencias:
-  npm install
-  
- 4.Ejecuta la aplicación en un emulador o dispositivo:
-  npm run start
+4. Instala las dependencias:
+   ```bash
+    npm install
+
+5. Ejecuta la aplicación en un emulador o dispositivo:
+   ```bash
+    npm run start
 
  
 ## Pantallas del Diseño
@@ -51,8 +54,6 @@ A continuación, se muestran algunas de las pantallas del diseño:
 <img src="https://github.com/user-attachments/assets/2a9b415a-af31-4e4d-937a-1c82317707e5" alt="information" width="250"/>
 <img src="https://github.com/user-attachments/assets/4fbd7286-885b-48b1-90e4-4e252211671f" alt="modal" width="250"/>
 <img src="https://github.com/user-attachments/assets/a363486d-d8c9-4996-82a9-92db5242c124" alt="downloader" width="250"/>
-
-
 
 ## Contacto
 
