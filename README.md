@@ -44,6 +44,7 @@ Para compilar y ejecutar este proyecto, sigue estos pasos:
 ## Pantallas del Diseño
 
 A continuación, se muestran algunas de las pantallas del diseño:
+
 <img src="https://github.com/user-attachments/assets/f5fa3536-a3f9-456a-93ae-f43dcfe128b6" alt="splash" width="250"/>
 <img src="https://github.com/user-attachments/assets/82807600-5da1-43c1-8e20-e72433207905" alt="menu" width="250"/>
 <img src="https://github.com/user-attachments/assets/d1a6e8b9-0de8-4f66-81ed-0a2f7b803e6a" alt="grid" width="250"/>
