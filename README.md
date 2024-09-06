@@ -1,4 +1,4 @@
-# IMAGESTORES APP
+# IMAGE STORES APP
 
 ## Descripción del Proyecto
 
@@ -59,4 +59,4 @@ A continuación, se muestran algunas de las pantallas del diseño:
 
 Para cualquier pregunta o comentario, puedes contactarme a través de erickrosario08@outlook.com.
 
-¡Gracias por visitar **IMAGESTORES APP**!
+¡Gracias por visitar **IMAGE STORES APP**!
