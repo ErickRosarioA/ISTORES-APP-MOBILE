@@ -3,7 +3,6 @@
 ## Descripción del Proyecto
 
 **IMAGESTORES APP** es una aplicación móvil desarrollada con Ionic 5 y Capacitor que permite a los usuarios buscar y descargar imágenes desde su dispositivo móvil. La aplicación presenta un diseño de interfaz de usuario personalizado, creado especialmente para ofrecer una experiencia de usuario óptima.
-![splash](https://github.com/user-attachments/assets/f5fa3536-a3f9-456a-93ae-f43dcfe128b6)
 
 ## Módulos
 
@@ -45,11 +44,13 @@ Para compilar y ejecutar este proyecto, sigue estos pasos:
 ## Pantallas del Diseño
 
 A continuación, se muestran algunas de las pantallas del diseño:
-![menu](https://github.com/user-attachments/assets/82807600-5da1-43c1-8e20-e72433207905)
-![grid](https://github.com/user-attachments/assets/d1a6e8b9-0de8-4f66-81ed-0a2f7b803e6a)
-![information](https://github.com/user-attachments/assets/2a9b415a-af31-4e4d-937a-1c82317707e5)
-![modal](https://github.com/user-attachments/assets/4fbd7286-885b-48b1-90e4-4e252211671f)
-![downloader](https://github.com/user-attachments/assets/a363486d-d8c9-4996-82a9-92db5242c124)
+<img src="https://github.com/user-attachments/assets/f5fa3536-a3f9-456a-93ae-f43dcfe128b6" alt="splash" width="250"/>
+<img src="https://github.com/user-attachments/assets/82807600-5da1-43c1-8e20-e72433207905" alt="menu" width="250"/>
+<img src="https://github.com/user-attachments/assets/d1a6e8b9-0de8-4f66-81ed-0a2f7b803e6a" alt="grid" width="250"/>
+<img src="https://github.com/user-attachments/assets/2a9b415a-af31-4e4d-937a-1c82317707e5" alt="information" width="250"/>
+<img src="https://github.com/user-attachments/assets/4fbd7286-885b-48b1-90e4-4e252211671f" alt="modal" width="250"/>
+<img src="https://github.com/user-attachments/assets/a363486d-d8c9-4996-82a9-92db5242c124" alt="downloader" width="250"/>
+
 
 
 ## Contacto
