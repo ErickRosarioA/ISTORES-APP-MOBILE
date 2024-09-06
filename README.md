@@ -1,4 +1,4 @@
-# IMAGE STORES APP
+# ISTORES APP MOBILE
 
 ## Descripción del Proyecto
 
@@ -29,7 +29,7 @@ Para compilar y ejecutar este proyecto, sigue estos pasos:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/ErickRosarioA/IMAGESTORES-APP.git
+   git clone https://github.com/ErickRosarioA/ISTORES-APP-MOBILE.git
 
 2. Navega al directorio del proyecto:
    ```bash
@@ -59,4 +59,4 @@ A continuación, se muestran algunas de las pantallas del diseño:
 
 Para cualquier pregunta o comentario, puedes contactarme a través de erickrosario08@outlook.com.
 
-¡Gracias por visitar **IMAGE STORES APP**!
+¡Gracias por visitar **ISTORES APP MOBILE**!
